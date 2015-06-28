@@ -1,0 +1,29 @@
+[
+	{
+		"name":"万物生长",
+		"img":"img/timg2.jpg",
+		"dd":true,
+		"score":"65",
+		"tbar":["爱情","惊悚"],
+		"pl":"这是一部二逼电影",
+		"href":"http://m.dianying.baidu.com/info/movie/schedule?from=webapp&day=4&sfrom=wise_film_info&movie_id=9434&c=294"
+	},
+	{
+		"name":"战狼",
+		"img":"img/timg3.jpg",
+		"3d":false,
+		"score":"7.7",
+		"tbar":["动作","正义"],
+		"pl":"这是一部武打电影",
+		"href":"http://m.dianying.baidu.com/info/movie/schedule?from=webapp&day=4&sfrom=wise_film_info&movie_id=8901&c=294"
+	},
+	{
+		"name":"速度与激情",
+		"img":"img/timg.jpg",
+		"3d":true,
+		"score":"7.8",
+		"tbar":["动作","激情","冒险"],
+		"pl":"保罗.沃克的最后一部作品",
+		"href":"http://m.dianying.baidu.com/info/movie/schedule?from=webapp&day=4&sfrom=wise_film_info&movie_id=9422&c=294"
+	}
+]

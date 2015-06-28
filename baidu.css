@@ -1,0 +1,552 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-03-09 22:00:51
+ * @version $Id$
+ */
+body{
+	background: #eee;
+}
+#wrapper>#overroll>div{
+	width: 98%;
+	border: 1px solid #ccc;
+	margin: 0 1%;
+	margin-bottom: 10px;
+	position: absolute;
+}
+#wrapper div#gl2,#wrapper div#footer{
+	width: 98%;
+	border: 1px solid #ccc;
+	margin: 0 1%;
+	margin-bottom: 10px;
+}
+.tq{
+	color: #999;
+	overflow: hidden;
+}
+.wd{
+	display: inline;
+	font-size: 30px;
+	padding-right: 10px;
+	border-right: 1px solid #bbb;
+	float: left;
+}
+.wd span{
+	position: relative;
+	top: 1px;
+	left: 2px;
+	font-size: 25px;
+}
+.xx{
+	float: left;
+	position: relative;
+	left: 5px;
+	top: 5px;
+	display: inline;
+}
+.xx p{
+	margin-bottom: 0;
+	font-size: 11px;
+}
+.c1{
+	border-width: 6px;
+	position: relative;
+}
+.c2{
+	border-width: 4px;
+	border-top-color: #eee;
+	position: relative;
+	left: -12px;
+	top: -1px;
+}
+#header .glyphicon-user{
+	float: right;
+	position: relative;
+	top: -30px;
+	color: #999;
+	font-size: 20px;
+}
+#wrapper #formq{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+#formq img{
+	margin-bottom: 20px;
+}
+input.form-control{
+	height: 42px;
+}
+span.input-group-addon{
+	font-weight: bold;
+	font-size: 16px;
+}
+form{
+	position: relative;
+}
+.sx{
+	position: absolute;
+	z-index: 100;
+	top: 12px;
+	right: 100px;
+}
+.bt{
+	display: inline-block;
+	width: 16px;
+	height: 19px;
+	overflow: hidden;
+	background: url(img/sx.png) 2px 0 no-repeat;
+	background-size: 35px;
+}
+.sx .caret{
+	position: relative;
+	top: -5px;
+	left: -3px;
+}
+.btp,.bts{
+	position :relative;
+	top: 2px;
+	left: -3px;
+}
+.btp{
+	/*border: 1px solid #000;*/
+	
+}
+.bts{
+	background-position: -14px 50%;
+	width:25px;
+	left: -7px;
+	top:2px;
+	/*border: 1px solid #000;*/
+}
+.ts{
+	position: absolute;
+	width: 80px;
+	text-align: center;
+	left: 3px;
+	top: 36px;
+	display:none;
+}
+.ts .col-xs-6{
+	border: 1px solid #aaa;
+	margin-right: -1px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background:#eee;
+	/*padding: 10px;*/
+}
+.ts .caret{
+	position:absolute;
+	border-top:0;
+	border-bottom: 4px solid #eee;
+	left:14px;
+	/*top: 1px;*/
+	top: -3px;
+}
+.ts .caret2{
+	border-bottom: 5px solid #aaa;
+	border-right-width:5px;
+	border-left-width:5px; 
+	left: 13px;
+	top: -5px;
+}
+.icon{
+	overflow: hidden;
+	margin-top:15px;
+}
+.icon a{
+	color:#333;	
+}
+.icon a:hover{
+	text-decoration: none;
+}
+.icon a p{
+	font-size: 0.8em;
+}
+.icon a .glyphicon{
+	font-size:1.2em;
+}
+.icon .col-xs-2{
+	padding-bottom: 5px;
+}
+#nav{
+	overflow: hidden;
+	top: 0;
+	/*position: relative;*/
+	background:#fff;
+	margin-bottom: 15px;
+}
+#nav .col-xs-3{
+	padding: 10px 0;
+	text-align: center;
+}
+h5{
+	margin-left: 5px;
+	color: #aaa;
+}
+h5 .glyphicon{
+	position: relative;
+	top:2px;
+	color:#00f;
+	margin-right: 3px;
+}
+.col-xs-3 a{
+	color:#000;
+	font-size: 1.1em;
+}
+.col-xs-3 a:hover{
+	text-decoration: none;
+}
+.dot{
+	width:0;
+	height: 0;
+	border: 2px solid #ccc;
+	margin-bottom: 1px;
+}
+.tbr{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#hot{
+	overflow: hidden;
+	top: 130px;
+	height: 170px;
+	background: #fff;
+}
+.change{
+	position: absolute;
+	right: 40px;
+	top: 9px;
+	padding-right: 15px;
+	border-right:1px solid #ccc;
+	/*font-size: 0.9em;*/
+
+}
+.change span{
+	margin-right: 3px;
+	position: relative;
+	top: 1px;
+	color: #ccc;
+}
+#hot .col-xs-6{
+	padding:15px 0;
+	padding-left: 15px;
+	height:40px;
+
+}
+#hot .col-xs-6 a{
+	display: inline-block;
+	position: relative;
+	color: #333;
+	
+}
+.col-xs-6 a:hover{
+	text-decoration: none;
+}
+.col-xs-6 a:active{
+	text-decoration: none;
+}
+.bor a::after{
+	position: absolute;
+	top:2px;
+	right: -1px;
+	content:"\e653";
+	font-size:20px;
+	font-family:icons;
+	line-height: 1;
+	color: #f00;
+}
+#round{
+	top: 310px;
+	overflow: hidden;
+	background: #fff;
+}
+#round .change{
+	border: 1px solid #ccc;
+	padding:0 3px;
+}
+.rou{
+	text-align: center;
+	padding-top: 5px;
+}
+.rou div{
+	display: inline-block;
+	/*left:130px;*/
+	left:5%;
+	width: 42px;
+	height: 42px;
+	background: #f09965;
+	border-radius:50%;
+}
+.rou div span{
+	position: relative;
+	top: 14px;
+	color: #fff;
+	font-size: 1.2em;
+
+}
+.rou .r1{
+	background:#b399d1;
+}
+#round h5{
+	margin-bottom: 40px;
+}
+#round .change{
+	top: 35px;
+	right: 15px;
+	padding-top: 3px;
+}
+.msg{
+	position: absolute;
+	left: 10px;
+	top: 35px;
+}
+#gl{
+	top: 545px;
+	overflow: hidden;
+	background: #fff;
+	height: 180px;
+}
+.kk{
+	display: inline-block;
+	/*border: 1px solid #ccc;*/
+	overflow: hidden;
+	width: 100%;
+	color:#000;
+	margin-left: 15px;
+}
+.kk:hover{
+	text-decoration: none;
+	color: #000;
+}
+.kk img{
+	float: left;
+	margin-right: 10px;
+	/*margin-top: 10px;*/
+}
+h6{
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	margin-top:2px;
+}
+.d{
+	display: inline-block;
+	width: 23px;
+	height: 15px;
+	background: #00f;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.fg{
+	border-left: 1px solid #ccc;
+	padding: 0 5px;
+	font-size: 0.8em;
+	color: #aaa;
+}
+.fg:first{
+	border-left-width: 0;
+}
+.fg em{
+	color: #f60;
+	font-weight: bold;
+}
+.mx{
+	color: #aaa;
+	font-size: 0.9em;
+	margin-top: 15px;
+}
+a.btn{
+	display: inline;
+}
+.film{
+	margin-top: 20px;
+}
+.more{
+	position: absolute;
+	font-size: 0.9em;
+	text-decoration:underline;
+	bottom: 5px;
+	right: 5px;
+}
+#gl2{
+	background: #fff;
+	height: 47px;
+	text-align: center;
+}
+#gl2 a{
+	font-size: 0.9em;
+	line-height: 47px;
+}
+#gl2 a:hove{
+	text-decoration: none;
+}
+#gl2 a span{
+	color:#00f;
+	padding-right: 10px;
+}
+#footer{
+	background: #fff;
+}
+#footer a{
+	font-size: 0.9em;
+	color: #555;
+}
+#footer a:hover{
+	text-decoration: none;
+}
+.foo{
+	margin: 5px 0;
+	padding-left: 10px;
+	position: relative;
+}
+.foo i{
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	background: url("img/w_icon2.png") no-repeat;
+	background-size: 20px 20px;
+	position: relative;
+	top: 5px;
+}
+#footer .col-xs-4 a{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+#footer .col-xs-4{
+	text-align: center;
+}
+.foo2{
+	top: -5px;
+	margin-bottom: 10px;
+}
+#footer .xy{
+	color: #ccc;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	margin-left: -37px;
+	margin-top: 10px;
+}
+.ni{
+	display: none;
+}
+#wrapper #footer{
+	margin-bottom: 0;
+}
+@-webkit-keyframes "rotate"{
+	from{transform:rotate(0deg)}to{transform:rotate(360deg)}
+}
+.rotate{
+	-webkit-animation-name:"rotate";
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:1;
+}
+.cd{
+	width: 91px;
+	position: absolute;
+	left: -80px;
+	border: 1px solid #ccc;
+	top: 30px;
+}
+.cd div{
+	height: 30px;
+	line-height: 30px;
+	font-size: 1em;
+	color: #000;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+#overroll{
+	/*border: 1px solid #000;*/
+	position: relative;
+	height: 740px;
+}
+.toTop{
+	transition:top 0.5s ease;
+}
+#weather{
+	height: 0;
+	background: url("img/weather.jpg") 0 0 no-repeat;
+	background-size: 100% 100%;
+	transition:height 0.5s ease;
+	border: 1px solid #fff;
+	position: relative;
+	overflow: hidden;
+}
+#loc{
+	font-size: 1em;
+	color: #fff;
+	/*font-weight: bold;*/
+	margin:10px 0 0 10px;
+}
+#loc span{
+	border: 1px solid #fff;
+	margin-right: 6px;
+	font-size: 0.9em;
+	padding:2px;
+}
+.we{
+	color: #fff;
+	margin: 0px 0 0 10px;
+}
+.we em{
+	font-size: 4.5em;
+}
+.we span{
+	font-size: 2.5em;
+}
+.temp,.kz{
+	color: #fff;
+	margin-left: 10px;
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+#weather>span{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: #fff;
+}
+#weather>a{
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 0.8em;
+	padding: 2px;
+	position: absolute;
+	top: 125px;
+	right: 20px;
+}
+#weather>a:hover{
+	text-decoration: none;
+}
+.forecast{
+	text-align: center;
+	height: 70px;
+	position: relative;
+	top: 15px;
+}
+.opc{
+	width: 100%;
+	height: 70px;
+	background: #000;
+	opacity: 0.3;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.forecast p{
+	margin-bottom: 0;
+	color: #fff;
+	opacity: 1;
+}
+.forecast div.col-xs-3{
+	padding-top: 5px;
+}
